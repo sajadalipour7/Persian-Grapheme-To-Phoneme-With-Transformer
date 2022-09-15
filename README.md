@@ -36,7 +36,7 @@ open 'JustInference.ipynb' in google colab or jupyter notebook and run the cells
 
 
 ## Results
-Our dataset had 75000 grapheme and phonome pairs. so I splitted them into 80% train and 20% test.the following results are evaluated with test data.
+Our dataset had 75000 grapheme and phoneme pairs. so I splitted them into 80% train and 20% test.the following results are evaluated with test data.
 
 There are two common evaluation metrics for grapheme to phoneme problem.[[reference](https://github.com/CiscoDevNet/g2p_seq2seq_pytorch)]
 
