@@ -2,6 +2,8 @@
 
 Since Grapheme to Phoneme is a sequence to sequence problem we can use transformer model from the famous paper [[Attention is all you need](https://arxiv.org/abs/1706.03762)] to model the problem.
 
+<img src=https://media.arxiv-vanity.com/render-output/6494154/Figures/ModalNet-21.png width="280" height="400" />
+
 masking,padding,data collating functions are based on the pytorch tutorial for Language Translation in this link [[tutorial](https://pytorch.org/tutorials/beginner/translation_transformer.html)]
 
 In this problem,input sequence and output sequence have differnet vocabulary,like language translation problem.
@@ -28,7 +30,8 @@ I'm not allowed to share the dataset but if you have a custom dataset the format
 open 'PersianG2P.ipynb' in google colab or jupyter notebook and run the cells
 
 ### 2.Just Inference :
-TODO
+download PersianG2P-base checkpoint form this [[link](https://drive.google.com/file/d/10zLUN9nDnw-x82_b8SpZAR8NZibRs1WK/view?usp=sharing)]
+open 'JustInference.ipynb' in google colab or jupyter notebook and run the cells
 
 
 ## Results
@@ -47,3 +50,5 @@ both of these evaluations are calculated with "jiwer" library [[jiwer](https://g
 |---------               | ------------      |  ------------    |
 | PersianG2P-light       |  6.5 %            |     28.5 %       |
 | PersianG2P-base        |  6.19 %           |     26.5 %       |
+
+### Examples
