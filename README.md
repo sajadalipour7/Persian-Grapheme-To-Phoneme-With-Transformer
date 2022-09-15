@@ -31,6 +31,7 @@ open 'PersianG2P.ipynb' in google colab or jupyter notebook and run the cells
 
 ### 2.Just Inference :
 download PersianG2P-base checkpoint form this [[link](https://drive.google.com/file/d/10zLUN9nDnw-x82_b8SpZAR8NZibRs1WK/view?usp=sharing)]
+
 open 'JustInference.ipynb' in google colab or jupyter notebook and run the cells
 
 
@@ -52,3 +53,6 @@ both of these evaluations are calculated with "jiwer" library [[jiwer](https://g
 | PersianG2P-base        |  6.19 %           |     26.5 %       |
 
 ### Examples
+Here are some random examples :
+
+<img src=https://github.com/sajadalipour7/Persian-Grapheme-To-Phoneme-With-Transformer/blob/main/examples.JPG width="350" height="600" />
