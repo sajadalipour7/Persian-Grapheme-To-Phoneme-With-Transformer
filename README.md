@@ -2,7 +2,7 @@
 
 Since Grapheme to Phoneme is a sequence to sequence problem we can use transformer model from the famous paper [[Attention is all you need](https://arxiv.org/abs/1706.03762)] to model the problem.
 
-<img src=https://media.arxiv-vanity.com/render-output/6494154/Figures/ModalNet-21.png width="280" height="400" />
+<img src=https://production-media.paperswithcode.com/methods/new_ModalNet-21.jpg width="280" height="400" />
 
 masking,padding,data collating functions are based on the pytorch tutorial for Language Translation in this link [[tutorial](https://pytorch.org/tutorials/beginner/translation_transformer.html)]
 
